@@ -3,6 +3,7 @@
 两种方法得的输入维度也不相同，选择压缩时，将input_shape和model.build部分的维度换成72，不压缩时换成100。
 
 #vae&ae
+
 vaemodel里面是一个vae模型，aemodel里面是一个ae模型
 train_model文件是训练文件,想要训练不同的模型，在文件里更改import,然后运行train_model文件
 
