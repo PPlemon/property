@@ -11,7 +11,7 @@ batch_size = 300
 latent_dim = 60
 epochs = 1000
 def main():
-    data = pandas.read_hdf('smiles-big.h5', 'table')
+    data = pandas.read_hdf('data/smiles-big.h5', 'table')
     keys = data['structure'].map(len) < 61
     data = data[keys]
     smiles = data['structure'][:]
