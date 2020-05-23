@@ -5,4 +5,5 @@
 #vae&ae
 vaemodel里面是一个vae模型，aemodel里面是一个ae模型
 train_model文件是训练文件,想要训练不同的模型，在文件里更改import,然后运行train_model文件
+
 模型文件参考了以下项目：https://github.com/maxhodak/keras-molecules
